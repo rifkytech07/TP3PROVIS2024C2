@@ -112,7 +112,7 @@ class MenuItemWidget extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Image.asset(
+          Image.network(
             image,
             height: 100,
             width: 100,
